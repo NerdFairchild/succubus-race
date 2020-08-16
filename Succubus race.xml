@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="succubus.xml" url="" />
+		</update>
+	</info>	
+	<element name="Succubus" type="Race" source="Nerd Fairchild" id="ID_RACE_SUCCUBUS">
+		<description>
+			<p>Lascivious and fiendish in nature, succubi and incubi are loyal servants to the archdevils of the Kingdom of Never. They thrive on manipulating unsuspecting targets, using their charismatic personality and beguiling nature to charm them into performing acts against their will or feast upon their souls.</p>
+			<h4>SOUL COLLECTORS</h4>
+			<p>Utmost value to devilkind, succubi and incubi work to collect the essence of the living. Their archdevil masters send them to the Material Plane to fulfill a mortal's end of the bargain, taking their soul whole or on rare occasion only part of it. If they are tasked to find a certain individual, they fight to the death to acquire their spirit. These fiends are capable of living with or stalking a person for decades if needed before they strike where their target is most vulnerable.</p>
+			<h4>THE KISS OF DEATH</h4>
+			<p>Famously their most used form of assassination, sucubi and incubi are capable of ripping out the soul of a living creature just by kissing them. For this signature style of killing, their evil acts are easily recognized by blood hunters, clerics and others who seek to destroy such beings. After devouring an individual's soul, it is transported to the Kingdom of Never where the succubus or incubus' master uses them as they please.</p>
+			<p class="indent">There is one way however to free a soul collected by a succubus or incubus. You have to kill the fiend that took the individual's soul and preform a ritual with their blood, attempting to trade with their archdevil master for something they desire more than the person's soul.</p>
+			<h4>SHAPESHIFTERS</h4>
+			<p>The work of succubi and incubi is not easy. If they murder an individual in broad daylight, they risk the chance of being discovered by a cleric or other holy person, dooming them to be chased after or even killed by their radiant power. As a safeguard against such situations succubi and incubi are gifted with the talent to shapeshift.</p>
+			<p class="indent">Some turn into shadowy figures, assassinating their targets and taking their soul as their last breath escapes their mouth.</p>
+			<p class="indent">Others shift into the desired form of a curvy woman, a muscular man or sometimes into their target's significant other to charm and deceive, leaving them vulnerable and defenseless at night or in their own homes.</p>
+			<h4>MISTAKEN DESIRE</h4>
+			<p>Folktales and bards' songs tell tales of succubi and incubi falling in love with a certain individual and even bearing children with them, however this is an extremely rare occasion. These devils usually do not feel emotions, nor do they have the desires a human or other intelligent race would. They are born to fulfill only one goal: serve their archdevil creator. Some folk mistake their decade-long missions for love or attraction, however most of the time this is only a means to an end for them. Rarely however, succubi and incubi are born with emotions and feelings like any other race. When in pursuit of a person they might meet their soulmate and fall in real, humanly love with them. This is a dangerous game for them because if their archdevil finds out there is only one way for them to survive: kissing their one true love without taking their soul. If they are capable of such an act, their bond to the Kingdom of Never is broken, their creator has no domain over them anymore and they lose their natural hunger for souls.</p>
+			<h4>SUCCUBUS TRAITS</h4>
+			<p>Your succubus or incubus character has the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Succubi and incubi mature at the same rate as humans, though tend to live as long as they continue to feast on souls periodically.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Imbued with their innate entrancing ability, most succubi and incubi are evil. Outcasts of their society however, in rare situations may escape to the Material Plane and lean toward neutrality.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Succubi and Incubi have about the same size and build as humans. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your fiendish heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Thanks to your heritage, your darkvision is unusual: everything you see in darkness is a shade of deep red.</p>
+			<p class="indent"><strong><em>Widowmaker.</em></strong>Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the Persuasion or the Deception skill.</p>
+			<p class="indent"><strong><em>Fiendish Nature.</em></strong>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the Shapechanger tag. Additionally, you are vulnerable to radiant damage.</p>
+			<p class="indent"><strong><em>Devil's Shapechange. </em></strong> You walk amongst everyday folk like you are one of them. As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. Your clothing and equipment aren’t changed by this trait. Without wings, you lost your flying speed. You revert to your true form if you die. Also a creature can recognize your disguise by making a successful Wisdom (Insight) check against your Fiend Save DC.</p>
+			<p class="indent">Fiend Save DC = 8 + your proficiency bonus + your Charisma modifier</p>
+			<p class="indent"><strong><em>Wings from the Nine Hells. </em></strong> You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your Devil's Shapechange trait does not have wings. You can use your wings to suddenly thrust yourself forward 10 feet on the battlefield as a bonus action. This movement doesn't provoke opportunity attacks. You regain the ability to use this feature after taking a short or long rest.</p>
+			<p class="indent"><strong><em>Draining Kiss.</em></strong> Once you reach 5th level, you gain the ability to drain the life of a foe with your deadly kiss. As an action, you may kiss a target within 5 feet of you. The target must succeed on a Constitution saving throw or take necrotic damage equal to your character level + your Charisma modifier. The DC equals your Fiend Save DC. Additionally, you gain hit points equal to the damage dealt. After you use your draining kiss, you can't use it again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Infernal.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" />
+			<stat name="dexterity" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:heavy]"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUCCUBUS_WIDOWMAKER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUCCUBUS_FIENDISH NATURE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUCCUBUS_DEVIL'S SHAPECHANGE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUCCUBUS_WINGS FROM THE NINE HELLS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUCCUBUS_DRAINING KISS" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_INFERNAL" />
+		</rules>
+	</element>
+	<element name="Devil's Shapechange" type="Racial Trait" source="Nerd Fairchild" id="ID_RACIAL_TRAIT_SUCCUBUS_DEVIL'S SHAPECHANGE">
+		<description>
+			<p>You walk amongst everyday folk like you are one of them. As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. Your clothing and equipment aren’t changed by this trait. Without wings, you lost your flying speed. You revert to your true form if you die. Also a creature can recognize your disguise by making a successful Wisdom (Insight) check against your Fiend Save DC.</p>
+			<p>class="indent">Fiend Save DC = 8 + your proficiency bonus + your Charisma modifier</p>
+		</description>
+		<sheet action="Action">
+			<description>You can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. Your clothing and equipment aren’t changed by this trait. Without wings, you lost your flying speed. You revert to your true form if you die. Also a creature can recognize your disguise by making a successful Wisdom (Insight) check against your Fiend Save DC.
+			Fiend Save DC = 8 + your proficiency bonus + your Charisma modifier</description>
+		</sheet>
+	</element>
+	<element name="Fiendish Nature" type="Racial Trait" source="Nerd Fairchild" id="ID_RACIAL_TRAIT_SUCCUBUS_FIENDISH NATURE">
+		<description>
+			<p>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the Shapechanger tag. Additionally, you are vulnerable to radiant damage.</p>
+		</description>
+		<sheet>
+			<description>Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the Shapechanger tag. Additionally, you are vulnerable to radiant damage.
+			</description>
+		</sheet>
+	</element>
+	<element name="Wings from the Nine Hells" type="Racial Trait" source="Nerd Fairchild" id="ID_RACIAL_TRAIT_SUCCUBUS_WINGS FROM THE NINE HELLS">
+		<description>
+			<p>You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your Devil's Shapechange trait does not have wings. You can use your wings to suddenly thrust yourself forward 10 feet on the battlefield as a bonus action. This movement doesn't provoke opportunity attacks. You regain the ability to use this feature after taking a short or long rest.</p>
+		</description>
+		<sheet action="Action">
+			<description>You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your Devil's Shapechange trait does not have wings. You can use your wings to suddenly thrust yourself forward 10 feet on the battlefield as a bonus action. This movement doesn't provoke opportunity attacks. You regain the ability to use this feature after taking a short or long rest.
+			</description>
+		</sheet>
+	</element>
+	<element name="Draining Kiss" type="Racial Trait" source="Nerd Fairchild" id="ID_RACIAL_TRAIT_SUCCUBUS_DRAINING KISS">
+		<description>
+			<p>Once you reach 5th level, you gain the ability to drain the life of a foe with your deadly kiss. As an action, you may kiss a target within 5 feet of you. The target must succeed on a Constitution saving throw or take necrotic damage equal to your character level + your Charisma modifier. The DC equals your Fiend Save DC. Additionally, you gain hit points equal to the damage dealt. After you use your draining kiss, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action">
+			<description>Once you reach 5th level, you gain the ability to drain the life of a foe with your deadly kiss. As an action, you may kiss a target within 5 feet of you. The target must succeed on a Constitution saving throw or take necrotic damage equal to your character level + your Charisma modifier. The DC equals your Fiend Save DC. Additionally, you gain hit points equal to the damage dealt. After you use your draining kiss, you can't use it again until you finish a long rest.
+			</description>
+		</sheet>
+	</element>
+	<element name="Widowmaker" type="Racial Trait" source="Nerd Fairchild" id="ID_RACIAL_TRAIT_SUCCUBUS_WIDOWMAKER">
+		<description>
+			<p>Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the Persuasion or the Deception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the Persuasion or the Deception skill.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency, Widowmaker" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION" number="1" />
+		</rules>
+	</element>	
+</elements>
